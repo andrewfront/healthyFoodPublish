@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+        <title>Healthy Food</title>
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+<body>
+    <div class="wrapper">
+        <svg display="none">
+    <symbol id="cart" viewBox="0 0 24 24">
+        <path
+            d="M23.3106 0.000186759C23.2736 0.000738611 23.2355 0.00415365 23.1991 0.010963C23.1985 0.0111009 23.1977 0.0108251 23.1971 0.010963L19.5227 0.666369C19.289 0.708246 19.0931 0.875609 19.0066 1.10618C19.0066 1.1069 19.0066 1.10762 19.0066 1.10833L17.3016 5.67458L0.661396 6.10798C0.470031 6.11294 0.290359 6.20318 0.165975 6.35372C0.0415257 6.50425 -0.0183203 6.70439 0.00493145 6.9035L0.923506 14.8394C0.961422 15.1724 1.22479 15.4364 1.5449 15.4625L13.4079 16.4478L15.7591 18.3795C15.7618 18.3817 15.7645 18.3839 15.7674 18.3859C15.7699 18.3878 15.773 18.3885 15.7756 18.3903C15.7785 18.3923 15.781 18.3948 15.7839 18.3967C16.213 18.7312 16.3193 19.187 16.2587 19.4402C16.2241 19.5845 16.1714 19.6905 16.046 19.7722C15.9207 19.8539 15.7043 19.913 15.3339 19.8908C15.3325 19.8908 15.3311 19.8908 15.3297 19.8908C15.3178 19.8904 15.3044 19.8905 15.2925 19.8908C15.2906 19.8908 15.2883 19.8907 15.2863 19.8908L1.13779 19.9339H1.13574C0.763915 19.9314 0.451007 20.2572 0.45246 20.6454C0.453913 21.0336 0.768076 21.3581 1.13984 21.3525H1.14189L2.17613 21.3504C1.79181 21.6062 1.53413 22.0537 1.53413 22.562C1.53413 23.3525 2.15406 24 2.911 24C3.66787 24 4.28781 23.3525 4.28781 22.562C4.28781 22.051 4.02946 21.599 3.64171 21.3439L15.2927 21.3094C14.873 21.5566 14.5867 22.0258 14.5867 22.562C14.5867 23.3525 15.2067 24 15.9635 24C16.7205 24 17.3404 23.3525 17.3404 22.562C17.3404 21.8755 16.8735 21.2967 16.2547 21.1564C16.8397 20.9402 17.2892 20.4944 17.5675 19.8132C17.5716 19.8049 17.5751 19.7962 17.5778 19.7873C17.7912 18.8962 17.4127 17.9274 16.6324 17.2972C16.6303 17.295 16.6283 17.2928 16.6262 17.2907C16.6242 17.2892 16.6239 17.2858 16.6221 17.2843C16.6152 17.2757 16.6077 17.2677 16.5994 17.2606L14.9335 15.8959L20.1292 1.99644L23.4258 1.41003C23.4265 1.40989 23.4273 1.41017 23.4279 1.41003C23.7742 1.35188 24.0275 1.01477 23.9976 0.648999C23.9678 0.28251 23.662 -0.00493076 23.3102 6.41191e-05H23.3103L23.3106 0.000186759ZM16.7999 6.76984L15.8421 9.33544H14.5933V6.82807L16.7999 6.76984ZM14.1164 6.84104V9.33544H11.8107V6.9014L14.1164 6.84104ZM11.3338 6.91216V9.33544H9.02806V6.97253L11.3338 6.91216ZM8.5512 6.98543V9.33544H6.24544V7.0458L8.5512 6.98543ZM5.76859 7.05877V9.33544H3.46283V7.11913L5.76859 7.05877ZM2.98597 7.1299V9.33544H1.29534L1.04558 7.18164L2.98597 7.1299ZM1.35314 9.83127H2.98597V12.0843H1.61326L1.35314 9.83127ZM3.46283 9.83127H5.76859V12.0843H3.46283V9.83127ZM6.24544 9.83127H8.5512V12.0843H6.24544V9.83127ZM9.02806 9.83127H11.3338V12.0843H9.02806V9.83127ZM11.8107 9.83127H14.1164V12.0843H11.8107V9.83127ZM14.5933 9.83127H15.6584L14.8162 12.0843H14.5933V9.83127ZM1.67139 12.5801H2.98631V14.1971L1.84684 14.1022L1.67139 12.5801ZM3.46316 12.5801H5.76892V14.4277L3.46316 14.2359V12.5801ZM6.24577 12.5801H8.55153V14.6584L6.24577 14.4687V12.5801ZM9.02839 12.5801H11.3341V14.8913L9.02839 14.6994V12.5801ZM11.811 12.5801H14.1168V13.9513L13.6791 15.122C13.6223 15.0932 13.5604 15.0756 13.4975 15.0702L11.811 14.9301V12.5801ZM14.5936 12.5801H14.6287L14.5936 12.6815V12.5801ZM2.91226 21.7172C3.36216 21.7172 3.72144 22.0924 3.72144 22.5623C3.72144 23.0322 3.36216 23.4052 2.91226 23.4052C2.46235 23.4052 2.10307 23.0322 2.10307 22.5623C2.10307 22.0924 2.46235 21.7172 2.91226 21.7172ZM15.9643 21.7172C16.4142 21.7172 16.7735 22.0924 16.7735 22.5623C16.7735 23.0322 16.4142 23.4052 15.9643 23.4052C15.5144 23.4052 15.1551 23.0322 15.1551 22.5623C15.1551 22.0924 15.5144 21.7172 15.9643 21.7172ZM2.91226 22.1181C2.66785 22.1181 2.47259 22.3221 2.47259 22.5773C2.47259 22.8327 2.66785 23.0344 2.91226 23.0344C3.15666 23.0344 3.35193 22.8327 3.35193 22.5773C3.35193 22.3221 3.15666 22.1181 2.91226 22.1181ZM15.9643 22.1181C15.7199 22.1181 15.5246 22.3221 15.5246 22.5773C15.5246 22.8327 15.7199 23.0344 15.9643 23.0344C16.2087 23.0344 16.4039 22.8327 16.4039 22.5773C16.4039 22.3221 16.2087 22.1181 15.9643 22.1181Z" />
+    </symbol>
+</svg>
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__content">
+                <a data-scroll="#header" href="#" class="header__logo">Healthy<span class="click">food</span></a>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a data-scroll="#services" class="header__nav-link"
+                                href="#">Service</a></li>
+                        <li class="header__nav-item"><a data-scroll="#menu" class="header__nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="header__nav-item"><a data-scroll="#order" class="header__nav-link" href="#">Order</a>
+                        </li>
+                        <li class="header__nav-item"><a data-scroll="#ourbest" class="header__nav-link" href="#">Our
+                                best</a></li>
+                        <li class="header__nav-item"><a data-scroll="#contact" class="header__nav-link"
+                                href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__cart-center">
+                    <button class="header__cart"><svg class="header__cart-img">
+                            <use xlink:href="#cart"></use>
+                        </svg><span class="header__cart-count">0</span></button>
+                    <div class="header__cart-overlay">
+                        <div class="header__cart-wrapper">
+                            <!-- <div class="header__cart-content">
+                                <img src="images/cart/img1.jpg" alt="product" class="header__cart-image">
+                                <div class="header__cart-info">
+                                    <div class="header__cart-flex">
+                                    <div class="header__cart-title">Fried Chicken</div>
+                                    <div class="header__cart-price">5.75 $</div>
+                                </div>
+                                </div>
+                              <button type="button" class="header__cart-close"><img src="images/cart/close.svg" alt="close"></button>
+                                <img src="images/cart/delete.svg" alt="bucket" class="header__cart-remove">
+                                <div class="header__item-count">
+                                    <img src="images/cart/low.svg" alt="" class="header__arrow header__item-low">
+                                    <span class="header__item-number">0</span>
+                                    <img src="images/cart/up.svg" alt="" class="header__arrow header__item-up">
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="header__cart-footer">
+                            <div class="header__cart-footer__content">
+                                <div class="header__cart-footer__amount">Amount:<span class="amount"></span></div>
+                                <div class="header__cart-footer__total">Total:<span class="total"></span></div>
+                            </div>
+                            <form action="#" class="header__cart-footer__order">
+                                <label class="header__cart-footer__order-label">
+                                    <input type="text" class="header__cart-footer__order-input" placeholder="Name"
+                                        name="person-name">
+                                </label>
+                                <label class="header__cart-footer__order-label">
+                                    <input type="tel" data-validate-field="tel" class="header__cart-footer__order-input phoneinput" placeholder="Phone"
+                                        name="person-phone">
+                                </label>
+                                <label class="header__cart-footer__order-label">
+                                    <input type="email" data-validate-field="email" class="header__cart-footer__order-input emailinput" placeholder="Email"
+                                        name="person-email">
+                                </label>
+                                <button type="submit" class="header__cart-footer__gotonext">Order</button>
+                                <button class="header__cart-footer__gotonext footer__reset">Reset</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="js-hamburger" class="hamburger">
+                    <div class="hamburger__inner">
+                        <div class="hamburger__bars hamburger__bars--1"></div>
+                        <div class="hamburger__bars hamburger__bars--2"></div>
+                        <div class="hamburger__bars hamburger__bars--3"></div>
+                        <div class="hamburger__bars hamburger__bars--4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="headertop">
+    <div class="container">
+        <div class="headertop__inner">
+            <div class="headertop__img"><img data-src="images/header/headerbg.png" src="images/plug.png"  alt="headerbg" class="headertop__image"></div>
+            <div class="headertop__content">
+                <h1 class="headertop__title">STAY HEALTHY & JOIN US</h1>
+                <p class="headertop__subtitle">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
+            </div>
+        </div>
+        <div class="headertop__btn">
+        <a data-scroll="#menu" href="" class="headertop__menubtn">Explore menu</a>
+        <img src="images/header/pepper.svg" alt="pepper" class="headertop__pepper">
+    </div>
+    </div>
+</div>
+        <main class="main">
+            <div class="service" id="services">
+    <div class="container">
+        <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-once='false' class="title service__title">SERVICE</h2>
+        <div class="service__item">
+            <img data-src="images/service/img1.jpg" src="images/plug.png"  alt="servicebtn" class="service__img service__img--right">
+            <div class="service__content">
+                <div class="service__info">
+                    <div class="service__tooltip-main">
+                        <button aria-describedby="tiptext" class="service__tip">
+                            <img src="images/service/tooltip.svg" alt="servicebtn" class="service__tooltip">
+                        </button>
+                        <div role="tooltip" class="service__tip-text service__tip-text--before" id="tiptext">it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.</div>
+                    </div>
+                    <h3 class="service__subtitle service__subtitle-right">ORDER ONLINE</h3>
+                </div>
+                <p class="service__text service__text-right">typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="service__item service__item-left">
+            <div class="service__content">
+                <div class="service__info service__info-left">
+                    <div class="service__tooltip-main">
+                        <button aria-describedby="tiptext" class="service__tip">
+                            <img src="images/service/tooltip.svg" alt="servicebtn" class="service__tooltip">
+                        </button>
+                        <div role="tooltip" class="service__tip-text service__tip-text__left" id="tiptext">it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.</div>
+                    </div>
+                    <h3 class="service__subtitle service__subtitle-left">FAST DELIVERY</h3>
+                </div>
+                <p class="service__text service__text-left">typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <img data-src="images/service/img2.jpg" src="images/plug.png"  alt="servicebtn" class="service__img service__img--left">
+        </div>
+        <div class="service__item">
+            <img data-src="images/service/img3.jpg" src="images/plug.png"  alt="servicebtn" class="service__img service__img--left">
+            <div class="service__content">
+                <div class="service__info">
+                    <div class="service__tooltip-main">
+                        <button aria-describedby="tiptext" class="service__tip">
+                            <img src="images/service/tooltip.svg" alt="servicebtn" class="service__tooltip">
+                        </button>
+                        <div role="tooltip" class="service__tip-text service__tip-text--before" id="tiptext">it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.</div>
+                    </div>
+                    <h3 class="service__subtitle service__subtitle-right">CATERING SERVICE</h3>
+                </div>
+                <p class="service__text service__text-right">typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </div>
+    <img src="images/service/pear.svg" alt="pear" class="service__pear">
+</div>
+            <div class="menu" id="menu">
+    <div class="container">
+        <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-once='false' class="title menu__title">MENU</h2>
+        <div class="menu__btn-container">
+            <button type="button" class="menu__btn" data-id="all">All</button>
+            <button type="button" class="menu__btn" data-id="breakfast">Breakfast</button>
+            <button type="button" class="menu__btn" data-id="lunch">Lunch</button>
+            <button type="button" class="menu__btn" data-id="dinner">Dinner</button>
+            <button type="button" class="menu__btn" data-id="supper">Supper</button>
+            <button type="button" class="menu__btn" data-id="drinks">Drinks</button>
+            <button type="button" class="menu__btn" data-id="vegetables">Vegetables</button>
+            <button type="button" class="menu__btn" data-id="fastfood">Fastfood</button>
+        </div>
+        <div class="menu__inner">
+            <!-- <div class="menu__item">
+                <img src="images/menu/img1.jpg" alt="menu" class="menu__img">
+                <div class="menu__content">
+                    <div class="menu__subtitle">Fried Chicken</div>
+                    <div class="menu__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto reprehenderit</div>
+                    <div class="menu__info">
+                    <div class="menu__amount">Price</div>
+                    <div class="menu__price">5.75 $</div>
+                </div>
+                    <button type="button" class="menu__addtocart">Add to cart</button>
+                </div>
+            </div> -->
+            <!-- <div class="menu__item">
+                <img src="images/menu/img2.jpg" alt="menu" class="menu__img">
+                <div class="menu__content">
+                    <div class="menu__subtitle">Omlet</div>
+                    <div class="menu__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto reprehenderit</div>
+                    <div class="menu__info">
+                    <div class="menu__amount">Price</div>
+                    <div class="menu__price">5.75 $</div>
+                </div>
+                    <button type="button" class="menu__addtocart">Add to cart</button>
+                </div>
+            </div>
+            <div class="menu__item">
+                <img src="images/menu/img3.jpg" alt="menu" class="menu__img">
+                <div class="menu__content">
+                    <div class="menu__subtitle">Green</div>
+                    <div class="menu__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto reprehenderit</div>
+                    <div class="menu__info">
+                    <div class="menu__amount">Price</div>
+                    <div class="menu__price">5.75 $</div>
+                </div>
+                    <button type="button" class="menu__addtocart">Add to cart</button>
+                </div>
+            </div>
+            <div class="menu__item">
+                <img src="images/menu/img4.jpg" alt="menu" class="menu__img">
+                <div class="menu__content">
+                    <div class="menu__subtitle">Pepper</div>
+                    <div class="menu__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto reprehenderit</div>
+                    <div class="menu__info">
+                    <div class="menu__amount">Price</div>
+                    <div class="menu__price">5.75 $</div>
+                </div>
+                    <button type="button" class="menu__addtocart">Add to cart</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+            <div class="order" id="order">
+    <div class="container">
+        <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-once='false' class="title order__title">ORDER</h2>
+        <div class="order__inner">
+            <form action="mail.php" enctype="multipart/form-data" class="order__form" method="POST">
+                <h3 class="order__subtitle">Order Call</h3>
+                <input type="hidden" name="admin_email[]" value="andrew.ndrw1@gmail.com">
+                <input type="hidden" name="form_subject" value="Тема письма">
+                <label class="order__label form__label order__label--first">
+                    <input type="text" class="order__name order__main" placeholder="Name" name="name">
+                    <img src="images/order/cucumber.svg" alt="cucumber" class="order__cucumber">
+                </label>
+                <label class="order__label form__label">
+                    <input type="tel" data-validate-field="tel" class="order__phone order__main" placeholder="Phone" name="phone">
+                </label>
+                <label class="order__label form__label">
+                    <input type="email" data-validate-field="email" class="order__mail order__main" placeholder="Email" name="email">
+                </label>
+                <button class="order__submit">Submit</button>
+            </form>
+            <div class="order__decor"><img src="images/order/berry.svg" alt="berry" class="order__img"></div>
+        </div>
+    </div>
+</div>
+            <div class="features" id="ourbest">
+  <div class="container">
+    <div data-aos="fade-up" data-aos-duration="3000" class="title features__title">Our Best</div>
+    <div class="features__inner">
+    <div class="features__swiper swiper">
+      <div class="features__wrapper swiper-wrapper">
+          <div class="features__slide swiper-slide">
+            <div class="features__info">
+              <img src="images/features/img1.jpg" alt="burger" class="features__img">
+              <div class="features__name">
+                <div class="features__stars">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                </div>
+                <div class="features__subtitle">Burger</div>
+              </div>
+            </div>
+            <p class="features__text">
+              nchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+              passages, and more recently with
+            </p>
+
+          </div>
+          <div class="features__slide swiper-slide">
+            <div class="features__info">
+              <img src="images/features/img2.jpg" alt="burger" class="features__img">
+              <div class="features__name">
+                <div class="features__stars">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                </div>
+                <div class="features__subtitle">Meat</div>
+              </div>
+            </div>
+            <p class="features__text">
+              nchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+              passages, and more recently with
+            </p>
+          </div>
+          <div class="features__slide swiper-slide">
+            <div class="features__info">
+              <img src="images/features/img3.jpg" alt="burger" class="features__img">
+              <div class="features__name">
+                <div class="features__stars">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                </div>
+                <div class="features__subtitle">Pepper</div>
+              </div>
+            </div>
+            <p class="features__text">
+              nchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+              passages, and more recently with
+            </p>
+          </div>
+          <div class="features__slide swiper-slide">
+            <div class="features__info">
+              <img src="images/features/img2.jpg" alt="burger" class="features__img">
+              <div class="features__name">
+                <div class="features__stars">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                </div>
+                <div class="features__subtitle">Meat</div>
+              </div>
+            </div>
+            <p class="features__text">
+              nchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+              passages, and more recently with
+            </p>
+          </div>
+          <div class="features__slide swiper-slide">
+            <div class="features__info">
+              <img src="images/features/img1.jpg" alt="burger" class="features__img">
+              <div class="features__name">
+                <div class="features__stars">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                </div>
+                <div class="features__subtitle">Burger</div>
+              </div>
+            </div>
+            <p class="features__text">
+              nchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+              passages, and more recently with
+            </p>
+          </div>
+          <div class="features__slide swiper-slide">
+            <div class="features__info">
+              <img src="images/features/img3.jpg" alt="burger" class="features__img">
+              <div class="features__name">
+                <div class="features__stars">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                  <img src="images/features/star.svg" alt="star" class="features__star">
+                </div>
+                <div class="features__subtitle">Pepper</div>
+              </div>
+            </div>
+            <p class="features__text">
+              nchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+            <div class="contact" id="contact">
+    <div class="container">
+        <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-once='false' class="title contact__title">CONTACT</h2>
+        <div class="contact__inner">
+            <div class="contact__map" id="map"></div>
+        </div>
+    </div>
+</div>
+        </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <p class="footer__text">
+                Made by Andrew, <span></span> |
+            </p>
+            <img src="images/heart.svg" alt="heart" class="footer__img footer__img--heart heartbeat">
+            <img src="images/smile.svg" alt="heart" class="footer__img">
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="js/bundle.js"></script>
+</body>
+
+</html>
